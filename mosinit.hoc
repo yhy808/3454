@@ -1,0 +1,5 @@
+load_file("nrngui.hoc")
+load_file("modelmess.ses")
+objref ns
+ns = new NetCon(NetStim[0], TriggeredIClamp[0], 0,0,0)
+
