@@ -1,7 +1,7 @@
 NEURON model files derived from the paper: 
 Contribution of the Kv3.1 potassium channel to high-frequency firing in mouse auditory neurones
 Lu-Yang Wang, Li Gan, Ian D. Forsythe and Leonard K. Kaczmarek
-J. Physiol (1998), 501.9, pp. 183-194
+*J. Physiol (1998)*, 501.9, pp. 183-194
 
 This model will generate graphs similar to those in figure 5.  For
 example one could compare the 400 Hz firing with and without Kv3.1.
@@ -24,3 +24,7 @@ The Kv3.1 current can be turned off by setting the value of gbar_HT to 0.
 3. Type in: ``` mknrndll ```
 
 4. Run ``` mosinit.hoc ```
+
+Changelog:
+----------
+2024-10: Converted readme to markdown
